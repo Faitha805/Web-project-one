@@ -1,0 +1,70 @@
+nav{
+    background-color: brown;
+    overflow: hidden; 
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+nav a{
+    color: white;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: medium;
+    float: left;
+
+}
+
+nav img{
+    width:  70px;
+    height: 50px;
+    border-radius: 30px;
+    align-items: center;
+    float: left;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+}
+
+nav a:hover{
+    background-color: red;
+    color: white;
+
+}
+
+nav a.active{
+    color:chartreuse;
+    font-size: larger;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.content{
+    background-color: burlywood;
+    color: rgb(122, 5, 5);
+    border-radius: 33px;
+    box-shadow: 10px 10px 5px 12px gray;
+    background-size: cover;
+    padding: 10% 15%;
+    text-align: center;
+
+}
+
+button{
+    border: none;
+    background-color: brown;
+    border-radius: 32px;
+    width: 8cm;
+    height: 1cm;
+    font-size: large;
+    text-align: center;
+
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}

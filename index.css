@@ -1,0 +1,91 @@
+nav{
+    background-color: brown;
+    overflow: hidden; 
+    margin-top: 0%;
+    position: relative;
+}
+
+nav a{
+    color: white;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: medium;
+    float: left;
+
+}
+
+nav img{
+    width:  70px;
+    height: 50px;
+    border-radius: 30px;
+    align-items: center;
+    float: left;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+}
+
+nav a:hover{
+    background-color: red;
+    color: white;
+
+}
+
+nav a.active{
+    color:chartreuse;
+    font-size: larger;
+}
+
+.home_page{
+    background-image: url(./images/landingimg.jpeg);
+    background-size: cover;
+    padding: 15%;
+    padding-left: 35%;
+    padding-right: 35%;
+    position: relative;
+    top: -20px;
+}
+
+button{
+    color: white;
+    background-color: brown;
+    text-decoration: none;
+    border-radius: 32px;
+    width: 8cm;
+    height:1cm;
+    padding: 5% ;
+    position: relative;
+    left: -150px;
+    top: -5px;
+    margin: 5px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+}
+
+#guest{
+    background-color: white;
+    color: brown;
+    text-decoration:none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+}
+
+
+.content{
+    background-color: rgba(0, 0, 0, 0.596);
+    align-items: center;
+    text-align: center;
+    padding: 30% 60%;
+    background-size: 200px 200px;
+    
+}
+ 
+ 
